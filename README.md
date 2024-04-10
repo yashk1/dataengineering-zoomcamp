@@ -21,6 +21,8 @@ Data Quality and Governance
 
 #### Data: [NYC TLC data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
+CSV files: [CSVs](https://github.com/DataTalksClub/nyc-tlc-data)
+
 This is the dataset we will be ingesting and storing into data warehouse using data engineering techniques.
 
 ### Module 1: Containerization and Infrastructure as Code [current]
