@@ -1,6 +1,6 @@
 # Data Engineering Zoomcamp 2024 (self paced)
 
-Welcome to the Data Engineering Zoomcamp repository! This repository contains materials and notes from the Data Engineering Zoomcamp course offered by [DataTalks.Club](https://datatalks.club/blog/data-engineering-zoomcamp.html). The course covers fundamental concepts, tools, and techniques in **Data Engineering**, equipping you with the skills necessary to build **data pipelines**, **manage large datasets**, and **optimize data workflows**.
+Welcome to the Data Engineering Zoomcamp repository! This repository contains my materials and notes from the Data Engineering Zoomcamp course offered by [DataTalks.Club](https://datatalks.club/blog/data-engineering-zoomcamp.html). The course covers fundamental concepts, tools, and techniques in **Data Engineering**, equipping you with the skills necessary to build **data pipelines**, **manage large datasets**, and **optimize data workflows**.
 
 *Official course link:* [GitHub repository](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main)
 
@@ -8,14 +8,14 @@ Welcome to the Data Engineering Zoomcamp repository! This repository contains ma
 
 ![overview](image/README/course-overview.png)
 
-Data Engineering Zoomcamp is designed for individuals interested in diving into the world of data engineering. Whether you're a beginner or an experienced professional looking to enhance your skills, this course provides comprehensive coverage of key topics in data engineering, including:
+Data Engineering Zoomcamp is designed for individuals interested in diving into the world of data engineering. Whether you're a beginner or an experienced professional looking to enhance your skills, this course covers key topics in data engineering, including:
 
-Introduction to Data Engineering
-**Data Processing and Transformation**
-**Data Storage and Management**
-Building Data Pipelines
-Big Data Technologies
-Data Quality and Governance
+- Introduction to Data Engineering
+- **Data Processing and Transformation**
+- **Data Storage and Management**
+- Building Data Pipelines
+- Big Data Technologies
+- Data Quality and Governance
 
 ## Syllabus
 

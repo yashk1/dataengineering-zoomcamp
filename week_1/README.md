@@ -2,6 +2,12 @@
 
 In the first week of the Data Engineering Zoomcamp 2024 course, the focus is on establishing a solid foundation in the core tools and technologies used in data engineering. The key topics covered during this week include:
 
+<div style="display: flex; justify-content: center;">
+    <img src="https://www.zadara.com/wp-content/uploads/docker.png" alt="Docker" width="250" style="margin: 0 10px;">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*WE-EQFubMHMnMv-bPIW5SA.png" alt="GCP" width="300" style="margin: 0 10px;">
+    <img src="https://repository-images.githubusercontent.com/757143921/a58fbb0a-b5f8-4c67-a9c8-fd9348550998" alt="Terraform" width="300" style="margin: 0 10px;">
+</div>
+
 ## Docker and Postgres
 
 1. **Environment Setup**: Installing and configuring essential tools, such as Python 3, Google Cloud SDK, Docker with docker-compose, Terraform, and Postgres CLI.
