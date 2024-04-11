@@ -38,3 +38,6 @@ In the first week of the Data Engineering Zoomcamp 2024 course, the focus is on 
 - Introducing the basic usage of Terraform, a popular Infrastructure as Code (IaC) tool.
 - Starting with a regular Terraform configuration file, then moving to a variables.tf file for better modularity.
 - Practicing the Terraform workflow: plan, apply, and destroy the resources.
+
+
+# Environment Setup
