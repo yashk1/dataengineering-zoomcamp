@@ -1,2 +1,4 @@
 docker-env
 yellow_tripdata_2021-01.csv
+data_pgadmin
+ny_taxi_postgres_data
