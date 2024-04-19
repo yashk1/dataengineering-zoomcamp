@@ -6,7 +6,6 @@ Imagine you're getting ready for a big race, like the Formula 1 Grand Prix. Each
 
 ![this week](image/README/week2_roadmap.png)
 
-
 # Configuring Mage
 
 Prior to getting into some of the key components of Mage, we need to setup our environment. If you haven't already, you'll need to clone the [Mage Zoomcamp repository](https://github.com/mage-ai/mage-zoomcamp) provided so we can setup our environment locally.
