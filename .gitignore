@@ -3,6 +3,7 @@ yellow_tripdata_2021-01.csv
 data_pgadmin
 ny_taxi_postgres_data
 week2_data_orchestration/mage-zoomcamp
+<<<<<<< HEAD
 *.json
 
 # Ignore Terraform files
@@ -11,3 +12,6 @@ week2_data_orchestration/mage-zoomcamp
 terraform.tfstate
 terraform.tfstate.backup
 *.terraform
+=======
+*.json
+>>>>>>> ae80981a2b61a2f07b78e1e90f83d46f9328ea6a
