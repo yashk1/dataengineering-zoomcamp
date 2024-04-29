@@ -13,7 +13,6 @@ NOTE: you will need to use the PARQUET option files when creating an External Ta
 Create an external table using the Green Taxi Trip Records Data for 2022.
 Create a table in BQ using the Green Taxi Trip Records for 2022 (do not partition or cluster this table).
 
-
 # Setup
 
 ETL data from API to Google Cloud Storage using Mage
@@ -47,7 +46,6 @@ def test_output(output, *args) -> None:
     """
     assert output is not None, 'The output is undefined'
 ```
-
 
 **Data Export**
 
@@ -112,16 +110,30 @@ Question 1: What is count of records for the 2022 Green Taxi Data??
 - 1,936,423
 - 253,647
 
+### Answer
+
+`840,402`
+
+Query:
+
+```
+SELECT COUNT(*) FROM `prismatic-grail-420403.ny_taxi.external_table_green_taxi_data`;
+
+```
 
 ## Question 2:
 
-Write a query to count the distinct number of PULocationIDs for the entire dataset on both the tables.`</br>`
+Write a query to count the distinct number of PULocationIDs for the entire dataset on both the tables.
 What is the estimated amount of data that will be read when this query is executed on the External Table and the Table?
 
 - 0 MB for the External Table and 6.41MB for the Materialized Table
 - 18.82 MB for the External Table and 47.60 MB for the Materialized Table
 - 0 MB for the External Table and 0MB for the Materialized Table
 - 2.14 MB for the External Table and 0MB for the Materialized Table
+
+### Answer
+
+`0 MB for the External Table and 6.41MB for the Materialized Table`
 
 ## Question 3:
 
@@ -132,6 +144,10 @@ How many records have a fare_amount of 0?
 - 112
 - 1,622
 
+### Answer
+
+`1622`
+
 ## Question 4:
 
 What is the best strategy to make an optimized table in Big Query if your query will always order the results by PUlocationID and filter based on lpep_pickup_datetime? (Create a new table with this strategy)
@@ -140,6 +156,12 @@ What is the best strategy to make an optimized table in Big Query if your query 
 - Partition by lpep_pickup_datetime  Cluster on PUlocationID
 - Partition by lpep_pickup_datetime and Partition by PUlocationID
 - Cluster on by lpep_pickup_datetime and Cluster on PUlocationID
+
+### Answer
+
+```
+
+```
 
 ## Question 5:
 
