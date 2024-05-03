@@ -13,7 +13,7 @@ models:
     columns:
       - name: tripid
         data_type: string
-        description: ""
+        description: "This is a surrogate key generated using vendor id + pickup_datetime"
         tests:
           - unique:
               severity: warn
