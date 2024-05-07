@@ -17,15 +17,14 @@ dim_zones as(
 )
 
 select 
-    fhv.tripid
-    fhv.dispatching_base_num
-    fhv.pickup_datetime
-    fhv.dropoff_datetime
-    fhv.pickup_locationid
-    fhv.dropoff_locationid
-    fhv.sr_flag
+    fhv.tripid,
+    fhv.dispatching_base_num,
+    fhv.pickup_datetime,
+    fhv.dropoff_datetime,
+    fhv.pickup_locationid,
+    fhv.dropoff_locationid,
+    fhv.sr_flag,
     fhv.affiliated_base_number
-from external_fhv_tripdata fhv 
-    inner join dim_zones as pickup_zone on fhv.locationid = pickup_zone.pulocationid
-    inner join dim_zones as dropoff_zone on fhv.locationid = dropoff_zone.dolocationid
-
+from fhv_tripdata fhv 
+    inner join dim_zones as pickup_zone on fhv.pickup_locationid = pickup_zone.locationid
+    inner join dim_zones as dropoff_zone on fhv.pickup_locationid = dropoff_zone.locationid
