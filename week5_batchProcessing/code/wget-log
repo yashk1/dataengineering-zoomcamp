@@ -1,0 +1,21 @@
+--2024-05-17 16:30:54--  https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-01.csv.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/513814948/1bc3de9c-af03-46e3-baa6-c4475782682d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240517%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240517T233055Z&X-Amz-Expires=300&X-Amz-Signature=916404f217f5e30ed2d68e6db5d6aa08429e4417849643ebd58fdabbfaaa6fc5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=513814948&response-content-disposition=attachment%3B%20filename%3Dyellow_tripdata_2020-01.csv.gz&response-content-type=application%2Foctet-stream [following]
+--2024-05-17 16:30:55--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/513814948/1bc3de9c-af03-46e3-baa6-c4475782682d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240517%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240517T233055Z&X-Amz-Expires=300&X-Amz-Signature=916404f217f5e30ed2d68e6db5d6aa08429e4417849643ebd58fdabbfaaa6fc5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=513814948&response-content-disposition=attachment%3B%20filename%3Dyellow_tripdata_2020-01.csv.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 116338814 (111M) [application/octet-stream]
+Saving to: ‘data/raw/yellow/2020/01/yellow_tripdata_2020_01.csv.gz’
+
+2020/01/yellow_tripdata_  15%[====>                            ]  17.42M  --.-KB/s    eta 4d 23h data/raw/yellow/2020/01/  15%[====>                            ]  17.42M  --.-KB/s    in 22h 15m 
+
+2024-05-18 14:46:20 (228 B/s) - Read error at byte 18265536/116338814 (Operation timed out). Retrying.
+
+--2024-05-18 14:46:21--  (try: 2)  https://objects.githubusercontent.com/github-production-release-asset-2e65be/513814948/1bc3de9c-af03-46e3-baa6-c4475782682d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240517%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240517T233055Z&X-Amz-Expires=300&X-Amz-Signature=916404f217f5e30ed2d68e6db5d6aa08429e4417849643ebd58fdabbfaaa6fc5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=513814948&response-content-disposition=attachment%3B%20filename%3Dyellow_tripdata_2020-01.csv.gz&response-content-type=application%2Foctet-stream
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.

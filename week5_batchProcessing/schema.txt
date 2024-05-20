@@ -1,0 +1,11 @@
+from pyspark.sql import types
+
+types.StructType([
+    type.StructField('hvfhs_license_num', types.StringType(), True), 
+    type.StructField('dispatching_base_num', types.StringType(), True), 
+    type.StructField('pickup_datetime', types.StringType(), True), 
+    type.StructField('dropoff_datetime', types.StringType(), True), 
+    type.StructField('PULocationID', types.LongType(), True), 
+    type.StructField('DOLocationID', types.LongType(), True), 
+    type.StructField('SR_Flag', types.DoubleType(), True)]
+)

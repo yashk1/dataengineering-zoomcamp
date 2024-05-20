@@ -35,3 +35,24 @@ However, the advantages of batch jobs often compensate for its shortcomings, and
 ## MacOS spark setup
 
 [Setup mac](https://github.com/yashk1/dataengineering-zoomcamp/blob/main/week5_batchProcessing/MacOS%20setup.md)
+
+
+# 5.4 Anatomy of Spark Cluster
+
+
+#### Spark Cluster
+
+**Spark Execution modes** : It is possible to run a spark application using  **cluster mode** , **local mode** (pseudo-cluster) or with an **interactive** shell (*pypsark* or  *spark-shell* ).
+
+So far we’ve used a **local cluster** to run our Spark code, but Spark **clusters** often contain multiple computers that act as  **executors** .
+
+Spark clusters are managed by a  **master** , which behaves similarly to an entry point to a Kubernetes cluster. A **driver** (an Airflow DAG, a computer running a local script, etc.) who wants to run a Spark job will send the job to the master, who in turn will distribute the work among the  **executors in the cluster** . If an executor fails and becomes offline for any reason, the master will reassign the task to another executor.
+
+Using cluster mode:
+
+* Spark applications are run as independent sets of processes, coordinated by a SparkContext object in your main program (called the  *driver program* ).
+* The *context* connects to the cluster manager  *which allocate resources* .
+* Each *worker* in the cluster is managed by an  *executor* .
+* The *executor* manages computation as well as storage and caching on each machine.
+* The application code is sent from the *driver* to the executors, and the executors specify the context and the various *tasks* to be run.
+* The *driver* program must listen for and accept incoming connections from its executors throughout its lifetime
