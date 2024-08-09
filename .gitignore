@@ -18,3 +18,5 @@ terraform.tfstate.backup
 
 week5_batchProcessing/code/data
 week5_batchProcessing/fhvhv
+
+*.parquet
