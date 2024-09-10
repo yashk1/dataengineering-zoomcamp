@@ -1,6 +1,6 @@
 # Week 1 Overview: Fundamentals of Docker, Postgres, and GCP
 
-In the 1st week of the Data Engineering Zoomcamp 2024 course, the focus is on establishing a solid foundation in the core tools and technologies used in data engineering. The key topics covered during this week include:
+In the 1st week of the Data Engineering Zoomcamp 2024, the focus is on establishing a solid foundation in the core tools and technologies used in data engineering. The key topics covered during this week include:
 
 1. Docker
 2. Google Cloud Platform - Cloud Storage
@@ -42,5 +42,3 @@ In the 1st week of the Data Engineering Zoomcamp 2024 course, the focus is on es
 - Introducing the basic usage of Terraform, a popular Infrastructure as Code (IaC) tool.
 - Starting with a regular Terraform configuration file, then moving to a variables.tf file for better modularity.
 - Practicing the Terraform workflow: plan, apply, and destroy the resources.
-
-# Environment Setup
