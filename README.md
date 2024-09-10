@@ -25,7 +25,7 @@ CSV files: [CSVs](https://github.com/DataTalksClub/nyc-tlc-data)
 
 This is the dataset we will be ingesting and storing into data warehouse using data engineering techniques.
 
-### Module 1: Containerization and Infrastructure as Code
+### Module 1: Containerization and Infrastructure as Code - [here](https://github.com/yashk1/dataengineering-zoomcamp/tree/main/week1_docker_gcp_terraform)
 
 - **Overview**: Introduction to the course and its objectives.
 - **Technologies**: Google Cloud Platform (GCP), Docker, docker-compose.
