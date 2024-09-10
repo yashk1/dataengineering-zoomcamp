@@ -1,6 +1,6 @@
-# Data Engineering Zoomcamp 2024 (self paced)
+# Data Engineering Zoomcamp 2024
 
-Welcome to the Data Engineering Zoomcamp repository! This repository contains my materials and notes from the Data Engineering Zoomcamp course offered by [DataTalks.Club](https://datatalks.club/blog/data-engineering-zoomcamp.html). The course covers fundamental concepts, tools, and techniques in **Data Engineering**, equipping you with the skills necessary to build **data pipelines**, **manage large datasets**, and **optimize data workflows**.
+Welcome to the Data Engineering Zoomcamp! This repository contains my materials and notes from the Data Engineering Zoomcamp 2024 offered by [DataTalks.Club](https://datatalks.club/blog/data-engineering-zoomcamp.html). The course covers fundamental concepts, tools, and techniques in **Data Engineering**, equipping you with the skills necessary to build **data pipelines**, **manage large datasets**, and **optimize data workflows**.
 
 *Official course link:* [GitHub repository](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main)
 
@@ -25,7 +25,7 @@ CSV files: [CSVs](https://github.com/DataTalksClub/nyc-tlc-data)
 
 This is the dataset we will be ingesting and storing into data warehouse using data engineering techniques.
 
-### Module 1: Containerization and Infrastructure as Code [current]
+### Module 1: Containerization and Infrastructure as Code
 
 - **Overview**: Introduction to the course and its objectives.
 - **Technologies**: Google Cloud Platform (GCP), Docker, docker-compose.
