@@ -15,12 +15,12 @@ In the 1st week of the Data Engineering Zoomcamp 2024, the focus is on establish
 ## 1. Docker and Postgres
 
 1. **Environment Setup**: Installing and configuring essential tools, such as Python 3, Google Cloud SDK, Docker with docker-compose, Terraform, and Postgres CLI.
-   * Ensuring a consistent development environment for the course.
 2. **Docker and Postgres Integration**: Understanding the need for Docker and its role in building data pipelines.
    * Running a Postgres database **locally** using Docker.
    * Connecting to the Postgres database using the pgcli tool.
+   * Running postgres and pgadmin through Docker-compose in same container
 3. **NY Taxi Data Ingestion**: Exploring the NY Taxi dataset, which will be used throughout the course.
-   * Ingesting the NY Taxi data into the Postgres database.
+   * Ingesting the NY Taxi data into the Postgres database running locally
 4. **Connecting pgAdmin and Postgres**: Introducing the pgAdmin tool for managing and interacting with the Postgres database.
    * Setting up a Docker network to connect pgAdmin and Postgres.
 5. **Dockerizing the Ingestion Script**: Converting a Jupyter notebook into a Python script for data ingestion.
